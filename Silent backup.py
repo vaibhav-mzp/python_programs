@@ -17,6 +17,7 @@ Date: March 29, 2023
 
 """
 
+# Import the necessary modules
 import os  # Importing os module to interact with the operating system
 import subprocess  # Importing subprocess module for running shell commands
 import socket  # Importing socket module for getting the hostname of the computer
@@ -54,7 +55,7 @@ def main():
         print("Done.")
 
     except Exception as e:
-        # if an error occurs, print the error message
+        # Handle any exceptions that may occur
         print(e)
 
 
