@@ -17,6 +17,7 @@ Date: March 29, 2023
 
 """
 
+# Import the necessary modules
 import subprocess  # Importing subprocess module for running shell commands
 
 
@@ -60,7 +61,7 @@ def main():
         package_list = separator.join(package_list)
         file.write(package_list)
         file.close()
-        print(f"The package list has been written to {file}.")
+        print("Done.")
 
     except Exception as e:
         # Handle any exceptions that may occur
