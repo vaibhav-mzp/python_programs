@@ -17,7 +17,6 @@ Date: March 29, 2023
 
 """
 
-# Import the necessary modules
 import os  # Importing os module to interact with the operating system
 import subprocess  # Importing subprocess module for running shell commands
 
