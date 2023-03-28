@@ -1,4 +1,4 @@
-General-Purpose Python Programs
+# General-Purpose Python Programs
 
 This is my personal repository of Python programs that I use for managing Linux packages. I'm a casual Linux user, and these programs have helped me automate common package management tasks and streamline my workflow.
 
