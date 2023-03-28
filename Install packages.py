@@ -17,6 +17,7 @@ Date: March 29, 2023
 
 """
 
+# Import the necessary modules
 import os  # Importing os module to interact with the operating system
 import subprocess  # Importing subprocess module for running shell commands
 
@@ -33,6 +34,8 @@ def main():
 
         # Get user input for the path of the package list file
         file = input("Path of the package list file: ").strip()
+
+        # Read the file and extract the package names
         file = open(file, "r")
         user_package_list = file.read()
         file.close()
@@ -68,6 +71,7 @@ def main():
             separator = "\n" if newline == "y" else " "
             file.write(separator.join(unavailable if op == 2 else available))
             file.close()
+            print("Done.")
         elif op == 4:
             # Exit the program
             exit()
