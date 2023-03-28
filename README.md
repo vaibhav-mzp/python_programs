@@ -1,6 +1,6 @@
 # General-Purpose Python Programs
 
-This is my personal repository of Python programs that I use for managing Linux packages. I'm a casual Linux user, and these programs have helped me automate common package management tasks and streamline my workflow.
+This is my personal repository of Python programs that I use to automate everyday tasks. Whether you're a beginner or a casual programmer, these programs can help you automate common tasks and streamline your workflow.
 
 The programs are simple and efficient, so you can easily modify them to suit your needs. As of now, the repository contains three programs related to Linux package handling, but I plan to add more programs in the future to cover other related topics as well.
 
