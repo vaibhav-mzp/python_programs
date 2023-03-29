@@ -44,14 +44,14 @@ def main():
         file = os.path.join(os.path.expanduser("~"), "Backup", f"{socket.gethostname()}_{date_time}.txt")
         file = open(file, "w")
 
-        # join the package names into a single string separated by spaces
+        # Join the package names into a single string separated by spaces
         package_list = " ".join(package_list)
 
-        # write the package names to the file and close it
+        # Write the package names to the file and close it
         file.write(package_list)
         file.close()
 
-        # print a message indicating that the backup is complete
+        # Print a message indicating that the backup is complete
         print("Done.")
 
     except Exception as e:
